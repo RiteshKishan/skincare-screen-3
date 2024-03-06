@@ -1,0 +1,48 @@
+.invoicelist {
+  background-color: #ffffff;
+  font-family: "Cabin", sans-serif;
+  border-radius: 12px;
+  width: 751px;
+}
+.invoice-header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 28px;
+  gap: 34px;
+}
+.header-createinvoice {
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #4c4d4f;
+  padding-top: 16.7px;
+}
+.header-templates {
+  border-bottom: 2px solid #000000;
+  font-size: 14px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #000000;
+  padding-top: 16.7px;
+}
+.line {
+  height: 0;
+  border: 0.5px solid #4c4d4f33;
+  width: 100%;
+}
+.invoice-container{
+    margin-top: 43.6px;
+    display: flex;
+    gap: 13px;
+    flex-wrap: wrap;
+    padding-left: 28px;
+}
+
+@media screen and (max-width:835px) {
+    .invoicelist{
+        background-color: #fff9f1;
+    }
+}
